@@ -56,3 +56,6 @@ Route::get('/javascript2', function () {
 Route::get('/validasi1', function () {
     return view('validasi1');
 });
+
+Route::get('perkalian', 'App\Http\Controllers\DosenController@index');
+Route::get('show', 'App\Http\Controllers\DosenController@showBlog');
