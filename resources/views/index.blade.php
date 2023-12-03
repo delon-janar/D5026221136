@@ -2,7 +2,7 @@
 @section('title', 'Database Pegawai')
 
 @section('judul_halaman')
-<h2>www.malasngoding.com</h2>
+<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 <h3>Data Pegawai</h3>
 
 <a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
