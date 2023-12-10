@@ -87,3 +87,18 @@ Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/nilaikuliah', 'App\Http\Controllers\NilaiController@index2');
 Route::get('/nilaikuliah/tambah2','App\Http\Controllers\NilaiController@tambah2');
 Route::post('/nilaikuliah/store2','App\Http\Controllers\NilaiController@store2');
+
+//route agen
+Route::get('/data-agen', 'App\Http\Controllers\AgenController@index');
+
+Route::get('/data-agen/tambah','App\Http\Controllers\AgenController@tambah');
+Route::post('/data-agen/store','App\Http\Controllers\AgenController@store');
+
+Route::get('/data-agen/edit/{id}','App\Http\Controllers\AgenController@edit');
+Route::post('/data-agen/update','App\Http\Controllers\AgenController@update');
+
+Route::get('/data-agen/hapus/{id}','App\Http\Controllers\AgenController@hapus');
+
+Route::get('/data-agen/cari','App\Http\Controllers\AgenController@cari');
+
+Route::get('/data-agen/view/{id}','App\Http\Controllers\AgenController@view');
