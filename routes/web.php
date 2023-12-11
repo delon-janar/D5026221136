@@ -102,3 +102,8 @@ Route::get('/data-agen/hapus/{id}','App\Http\Controllers\AgenController@hapus');
 Route::get('/data-agen/cari','App\Http\Controllers\AgenController@cari');
 
 Route::get('/data-agen/view/{id}','App\Http\Controllers\AgenController@view');
+
+
+Route::get('/datakategori', 'App\Http\Controllers\EASController@index');
+Route::post('/kategori','App\Http\Controllers\EASController@view');
+
